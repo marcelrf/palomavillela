@@ -14,6 +14,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-generators', '~> 3.1.1'
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise'
+gem 'tinymce-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

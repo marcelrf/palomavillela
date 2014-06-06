@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: 3d7605f82706c8e107852f44c61ba6d8e9f2100d
+  revision: 6e226154625485fea9a9ad915f082a8a0dc45400
   specs:
     activeadmin (1.0.0.pre)
       arbre (~> 1.0)
@@ -68,7 +68,7 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
-    execjs (2.1.0)
+    execjs (2.2.0)
     formtastic (2.3.0.rc3)
       actionpack (>= 3.0)
     has_scope (0.6.0.rc)
@@ -79,7 +79,7 @@ GEM
     inherited_resources (1.5.0)
       has_scope (~> 0.6.0.rc)
       responders (~> 1.0)
-    jbuilder (2.0.7)
+    jbuilder (2.0.8)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
     jquery-rails (3.1.0)
@@ -153,6 +153,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
+    tinymce-rails (4.0.28)
+      railties (>= 3.1.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
@@ -181,5 +183,6 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   sqlite3
+  tinymce-rails
   turbolinks
   uglifier (>= 1.3.0)
